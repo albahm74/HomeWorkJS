@@ -1,0 +1,144 @@
+@media (max-width: 1200px) {
+    .top {
+        height: 800px;
+        &__content {
+            padding-top: 146px;
+            padding-left: 120px;
+            gap: 24px;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 64px;
+        }
+    }
+
+    .imgstar4 {        
+        left: 713px;
+        top: 568px;
+    }
+
+    .imgstar5 {        
+        left: 648px;
+        top: 538px;
+    }
+
+    .textblock {
+        padding-left: 120px;
+        &__title {
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 64px;        
+        }
+    }
+
+    .aboutgames {
+        height: 1320px;
+    }
+    
+    .game {
+        width: 290px;                
+        &__image {
+            max-width: 100%;
+            width: 50vw;             
+            height: auto;          
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 31px;        
+        } 
+
+        &__button {        
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+        }
+    
+    }
+
+    .imgstar11 {        
+        left: 40px;
+        top: 400px;
+    }
+
+    .imgstar12 {        
+        left: 50px;
+        top: 460px;
+    }
+
+    .minigames {   
+    height: 3400px;    
+    }
+
+    .title {
+        padding-bottom: 32px;
+        padding-left: 120px;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 64px;    
+    }
+
+    .content {
+        align-items: center;
+    }
+
+    .block1 {
+        width: 945px;
+         &__box1 {
+            padding-right: 48px;
+        }     
+    }
+
+    .block2 {
+        width: 945px;
+        &__box2 {
+            padding-left: 12px;    
+        }
+    }      
+
+    .block3 {
+        width: 945px;
+        &__box3 {
+            padding-left: 24px;
+            padding-right: 24px;
+        }    
+    }
+
+    .block4 {
+        width: 945px;            
+    }
+
+    .block5 {
+        width: 945px;
+        &__box5 {
+            padding-right: 48px;
+        }    
+    }
+
+    .block6 {
+        width: 945px;    
+    }
+
+    .imgstar7 {    
+        top: 25px;
+        left: 1030px;
+    }
+
+    .imgstar6 {        
+        top: 55px;
+        left: 1080px;
+    }
+
+    .imgstar10 {    
+        top: 3320px;
+        left: 1030px;
+    }
+
+    .imgstar8 {    
+        top: 2050;
+        left: 1080px;
+    }
+}
