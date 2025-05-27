@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat Bold";
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
+    height: 800px;
+    width: 1440px;
+    background-image: url(img/Rectangle\ 111002150.jpg);    
+}
+
+.top_box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_box_inbox {    
+    margin-top: 127px;
+    padding-left: 120px;
+}
+
+.top_box_inbox_stars1_star1 {    
+    position: absolute;
+    top: 55px;
+    left: 28px;        
+}
+
+.top_box_inbox_stars1_star2 {    
+    position: absolute;
+    top: 25px;
+    left: 108px;    
+}
+
+.top_box_inbox_head {
+    padding-left: 73px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.top_box_inbox_head_title {
+    width: 769px;
+    height: 156px;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.top_box_inbox_head_text {
+    width: 720px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.top_box_inbox_head_button {
+    width: 247px;
+    height: 66px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 60px;
+    color: #ffffff;
+    background-color: #202027;
+}
+
+.top_box_inbox_head_button:hover {
+    color: #202027;
+    background-color: #ffffff;
+}
+
+.top_box_inbox_stars2_star5 {
+   position: absolute;
+   right: 800px;
+   top: 450px;
+}
+
+.top_box_inbox_stars2_star4 {
+    position: absolute;
+    right: 700px;
+    top: 500px;
+ }
+
+.AboutGames {
+    height: 1470px;
+    width: 1440px;
+    background-image: url(img/Rectangle\ 111002149.jpg);    
+}
+
+.AboutGames_Top {
+    padding-top: 48px;
+}
+
+.AboutGames_Top_TextBlock {
+    position: relative; 
+    display: flex;
+    flex-direction: column;    
+    gap: 24px;
+    padding-left: 118px;   
+}
+
+.AboutGames_Top_TextBlock_title {
+    width: 314px;
+    height: 78px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.AboutGames_Top_TextBlock_text {
+    width: 788px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.AboutGames_Top_TextBlock_Star { 
+    position: absolute;
+    right: 0;
+    z-index: 1;    
+}
+
+.AboutGames_CardBlock {
+    position: relative;
+    padding-top: 36px;        
+    height: 1056px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.AboutGames_CardBlock_Game1 {
+    width: 378px;
+    height: 473px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.AboutGames_CardBlock_Game2 {
+    width: 378px;
+    height: 512px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.AboutGames_CardBlock_Game3 {
+    width: 378px;
+    height: 473px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.AboutGames_CardBlock_Game4 {
+    width: 378px;
+    height: 512px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.AboutGames_CardBlock_Game5 {
+    width: 378px;
+    height: 473px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.AboutGames_CardBlock_Game6 {
+    width: 378px;
+    height: 512px;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.AboutGames_CardBlock_Game1_button {
+    margin-top: 8px;
+    margin-left: 32px;
+    width: 108px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 52px;
+    background-color: #f7f7f7;
+    border: none;           
+}
+
+.AboutGames_CardBlock_Game1_title {
+    margin-left: 32px;
+    width: 314px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.AboutGames_Stars11 {
+    position: absolute;
+    left: 20px;
+    top: 400px;
+}
+
+.AboutGames_Stars12 {
+    position: absolute;
+    left: 50px;
+    top: 500px;
+}
+
+.MiniGames {    
+    height: 3500px;
+    width: 1440px;
+    background-image: url(img/Rectangle\ 111002146.jpg);    
+}
+
+.MiniGames_Title {
+    padding-left: 120px;
+    width: 400px;
+    height: 78px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.MiniGames_Stars1 {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 25px;
+    padding-right: 25px;
+}
+
+.MiniGames_Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.MiniGames_Box_Block1 {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.MiniGames_Box_Block2 {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.MiniGames_Box_Block3 {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.MiniGames_Box_Block4 {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.MiniGames_Box_Block5 {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.MiniGames_Box_Block6 {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.MiniGames_Box_Block1_Text {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.MiniGames_Box_Block2_Text {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.MiniGames_Box_Block1_Text_Title {
+    width: 504px;
+    height: 59px;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.MiniGames_Box_Block1_Text_Description {
+    width: 457px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.MiniGames_Box_Block1_Text_button {
+    width: 247px;
+    height: 66px;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 60px;
+}
+
+.MiniGames_Box_Block1_Text_button:hover {
+    color: #ffffff;
+    background-color: #202027;
+}
+
+.MiniGames_Stars2 {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    gap: 25px;
+    padding-right: 25px;
+}
+
+.Footer {
+    height: 150px;
+    width: 1440px;
+    background-image: url(img/Rectangle\ 111002148.jpg);
+}
+
+.Footer_Protection {
+    padding-top: 60px;
+    margin: auto;
+    width: 285px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 24px;        
+}
+
+
