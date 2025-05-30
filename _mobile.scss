@@ -17,6 +17,7 @@
             font-weight: 700;
             font-size: 40px;
             line-height: 49px;
+            text-align: center;
         }
 
         &__text {
@@ -25,6 +26,7 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 20px;
+            text-align: center;
         }
 
         &__text-span {
@@ -51,10 +53,9 @@
     }
 
     .imgstar1M {
-        position: absolute;
-        top: -90px;
-        left: 200px;
-        display: block;
+        position: absolute;        
+        z-index: 0;
+        clip-path: polygon(0 0, 60% 0, 60% 100%, 0% 100%);
     }
 
     .imgstar3M {
@@ -124,8 +125,7 @@
     .content {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: flex-start;        
         gap: 24px;
     }
 
