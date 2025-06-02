@@ -25,13 +25,19 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        gap: 48px;
+        gap: 48px;        
+    }
+    &__textblock {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 24px;
     }
 
     &__title {
         font-weight: 700;
         font-size: 64px;
-        line-height: 78px;
+        line-height: 78px;        
     }
 
     &__text {
@@ -45,7 +51,7 @@ a {
         font-weight: 600;
     }
 
-    &__button {
+    &__link {        
         padding-top: 16px;
         padding-bottom: 16px;
         padding-left: 65px;
@@ -58,7 +64,7 @@ a {
         background-color: #202027;
     }
 
-    &__button:hover {
+    &__link:hover {
         color: #202027;
         background-color: #ffffff;
     }
@@ -96,9 +102,10 @@ a {
 
 .imgstar1M {
     position: absolute;
-    top: -100px;
-    right: -100px;
+    top: 0;
+    right: 0;
     z-index: -1;    
+    display: none;    
 }
 
 .imgstar2M {
@@ -156,9 +163,10 @@ a {
 .cards {
     position: relative;
     padding-top: 72px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 32px;    
 }
 
 .boxduo {
@@ -195,7 +203,7 @@ a {
         color: #202027;
     }
 
-    &__button {
+    &__number {
         padding-top: 8px;
         padding-bottom: 10px;
         padding-right: 16px;
@@ -204,6 +212,7 @@ a {
         font-size: 16px;
         line-height: 18px;
         border-radius: 52px;
+        color: #202027;
         background-color: #f7f7f7;
         border: none;
     }
@@ -243,7 +252,7 @@ a {
     background-image: url(img/Rectangle\ 111002146.jpg);
 }
 
-.title {
+.title {    
     padding-bottom: 72px;
     font-weight: 700;
     font-size: 64px;
@@ -252,6 +261,7 @@ a {
 }
 
 .content {
+    padding-bottom: 211px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -538,25 +548,25 @@ a {
 .imgstar7 {
     position: absolute;
     top: 35px;
-    left: 1280px;
+    left: 1260px;
 }
 
 .imgstar6 {
     position: absolute;
-    top: 65px;
-    left: 1330px;
+    top: 75px;
+    left: 1320px;
 }
 
 .imgstar10 {
     position: absolute;
-    top: 3370px;
-    left: 1260px;
+    top: 3410px;
+    left: 1240px;
 }
 
 .imgstar8 {
     position: absolute;
-    top: 2100;
-    left: 1330px;
+    top: 3350px;
+    left: 1320px;
 }
 
 .footer {

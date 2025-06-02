@@ -8,7 +8,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 36px;
+        gap: 36px;        
+        }
+
+        &__textblock {
+            gap: 24px;
         }
 
         &__title {
@@ -43,7 +47,7 @@
             line-height: 17px;
             border-radius: 60px;
             color: #ffffff;
-            background-color: #202027;
+            background-color: #202027;                        
         }
         
          &__button:hover {
@@ -55,7 +59,7 @@
     .imgstar1M {
         position: absolute;        
         z-index: 0;
-        clip-path: polygon(0 0, 60% 0, 60% 100%, 0% 100%);
+        display: block;        
     }
 
     .imgstar3M {
@@ -106,6 +110,30 @@
         display: none;
     }
 
+    .imgstar11 {
+        display: none;    
+    }
+
+    .imgstar12 {
+        display: none;    
+    }
+
+    .imgstar7 {
+        display: none;    
+    }
+
+    .imgstar6 {
+        display: none;    
+    }
+
+    .imgstar8 {
+        display: none;    
+    }
+
+    .imgstar10 {
+        display: none;    
+    }
+
     .aboutgames {
         display: none;
     }
@@ -131,7 +159,7 @@
 
     .block1 {
         width: 343px;
-        height: 529px;
+        height: 577px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -185,7 +213,7 @@
 
     .block3 {
         width: 343px;
-        height: 529px;
+        height: 577px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -239,7 +267,7 @@
 
     .block5 {
         width: 343px;
-        height: 529px;
+        height: 577px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -293,7 +321,7 @@
     }
     .block2 {
         width: 343px;
-        height: 529px;
+        height: 577px;
         display: flex;
         flex-direction: column;        
         background-color: #ffffff;
@@ -346,7 +374,7 @@
 
     .block4 {
         width: 343px;
-        height: 529px;
+        height: 577px;
         display: flex;
         flex-direction: column;        
         background-color: #ffffff;
@@ -399,7 +427,7 @@
 
     .block6 {
         width: 343px;
-        height: 529px;
+        height: 577px;
         display: flex;
         flex-direction: column;        
         background-color: #ffffff;
@@ -447,5 +475,9 @@
         height: 285px;
         width: 343px;
         }
+    }
+
+    .footer {
+    height: 200px;
     }
 }

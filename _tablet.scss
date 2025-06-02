@@ -2,40 +2,101 @@
     .top {
         height: 800px;
         &__content {
-            padding-top: 146px;
-            padding-left: 120px;
-            gap: 24px;
+            padding-top: 140px;
+            padding-left: 85px;
+            gap: 36px;
         }
+
+        &__textblock {
+            display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
 
         &__title {
             font-weight: 700;
-            font-size: 52px;
-            line-height: 64px;
+            font-size: 48px;
+            line-height: 56px;
         }
+
+        &__text {
+            padding-right: 48px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+    }
+
+         &__link {            
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 104px;
+            padding-right: 104px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 17px;
+            border-radius: 60px;
+            color: #ffffff;
+            background-color: #202027;
+        }
+    }
+
+    .imgbigstar1 {
+        transform: scale(0.75);
+        top: -99px;
+        right: -72px;
+    }
+
+    .imgstar2 {
+        position: absolute;
+        top: 74px;
+        left: 33px;
+    }
+
+    .imgstar3 {
+        position: absolute;
+        top: 49px;
+        left: 106px;
     }
 
     .imgstar4 {        
-        left: 713px;
-        top: 568px;
+        left: 603px;
+        top: 548px;
     }
 
     .imgstar5 {        
-        left: 648px;
-        top: 538px;
+        left: 548px;
+        top: 488px;
     }
 
     .textblock {
-        padding-left: 120px;
+        padding-left: 85px;
         &__title {
             font-weight: 700;
-            font-size: 52px;
-            line-height: 64px;        
+            font-size: 48px;
+            line-height: 56px;        
         }
+
+        &__text {
+            padding-right: 228px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+    }
     }
 
     .aboutgames {
         height: 1320px;
     }
+
+    .cards {
+    position: relative;    
+    padding-top: 72px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;    
+}
     
     .game {
         width: 290px;                
