@@ -23,10 +23,11 @@ a {
 .top__content {
   padding-top: 196px;
   padding-right: 432px;
+  padding-bottom: 246px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 48px;
+  gap: 64px;
 }
 .top__textblock {
   display: flex;
@@ -244,6 +245,7 @@ a {
 }
 
 .title {
+  padding-top: 46px;
   padding-bottom: 72px;
   font-weight: 700;
   font-size: 64px;
@@ -756,7 +758,7 @@ a {
   .top__text-span {
     font-weight: 600;
   }
-  .top__button {
+  .top__link {
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 104px;
@@ -768,7 +770,7 @@ a {
     color: #ffffff;
     background-color: #202027;
   }
-  .top__button:hover {
+  .top__link:hover {
     color: #ffffff;
     background-color: #202027;
   }
