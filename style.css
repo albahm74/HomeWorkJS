@@ -254,7 +254,6 @@ a {
 }
 
 .content {
-  padding-bottom: 211px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
