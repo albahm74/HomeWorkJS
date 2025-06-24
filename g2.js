@@ -1,32 +1,35 @@
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
 function generateTask() {
-  const operations = ['+', '-', '*', '/'];
-  const op = operations[getRandomInt(0, operations.length - 1)];
-  let a = getRandomInt(1, 20);
-  let b = getRandomInt(1, 20);  
-  if (op === '/') {
-    a = a * b;
-  }
-  return { a, b, op };
+    const operators = ['+', '-', '*', '/'];
+    const operator = operators[Math.floor(Math.random() * operators.length)];
+
+    let num1 = Math.floor(Math.random() * 20) + 1;
+    let num2 = Math.floor(Math.random() * 20) + 1;
+    
+    if (operator === '/') {
+        num1 = num1 * num2;
+    }
+
+    const expression = `${num1} ${operator} ${num2}`;
+    return {
+        expression: expression,
+        correctAnswer: eval(expression)
+    };
 }
-const task = generateTask();
-const question = `${task.a} ${task.op} ${task.b}`;
-const userAnswer = prompt(`Решите задачу: ${question}`);
-const correctAnswer = calculateAnswer(task);
-function calculateAnswer(task) {
-  const { a, b, op } = task;
-  switch(op) {
-    case '+': return a + b;
-    case '-': return a - b;
-    case '*': return a * b;
-    case '/': return a / b;
-  }
+
+function askQuestion() {
+    const task = generateTask();
+    const userInput = prompt(`Решите пример: ${task.expression}`);
+    const userAnswer = parseFloat(userInput);
+
+    if (isNaN(userAnswer)) {
+        alert('Ошибка: введите числовой ответ.');
+        return;
+    }
+
+    if (Math.abs(userAnswer - task.correctAnswer) < 0.0001) {
+        alert('Верно!');
+    } else {
+        alert(`Неверно. Правильный ответ: ${task.correctAnswer}`);
+    }
 }
-const isCorrect = Math.abs(Number(userAnswer) - correctAnswer) < 1e-9;
-if (isCorrect) {
-  alert('Верно! Отличная работа!');
-} else {
-  alert(`Ошибка. Правильный ответ: ${correctAnswer}`);
-}
+askQuestion();
