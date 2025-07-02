@@ -32,4 +32,9 @@ function askQuestion() {
         alert(`Неверно. Правильный ответ: ${task.correctAnswer}`);
     }
 }
-askQuestion();
+document.addEventListener("DOMContentLoaded", function() {
+    const startBtn = document.getElementById("askQuestion");
+    startBtn.addEventListener("click", function() {
+        askQuestion();
+    });
+});

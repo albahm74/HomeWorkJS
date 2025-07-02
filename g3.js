@@ -8,4 +8,9 @@ const inputText = prompt("Введите текст, который вы хот�
       alert("Вы не ввели текст.");
     }
 }
-reverseText()    
+document.addEventListener("DOMContentLoaded", function() {
+    const startBtn = document.getElementById("reverseText");
+    startBtn.addEventListener("click", function() {
+        reverseText();
+    });
+});    
