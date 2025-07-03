@@ -5,10 +5,11 @@
         padding-top: 147px;
         padding-right: 16px;
         padding-left: 17px;
+        padding-bottom: 182px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 36px;        
+        gap: 48px;        
         }
 
         &__textblock {
@@ -37,7 +38,7 @@
             font-weight: 600;
         }
 
-        &__link {
+        &__link {            
             padding-top: 16px;
             padding-bottom: 16px;
             padding-left: 104px;
@@ -50,9 +51,9 @@
             background-color: #202027;                        
         }
         
-         &__link:hover {
-        color: #ffffff;
-        background-color:#202027; 
+        &__link:hover {
+            color: #ffffff;
+            background-color:#202027; 
         }
     }
 
@@ -159,18 +160,17 @@
 
     .block1 {
         width: 343px;
-        height: 577px;
+        height: 529px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         background-color: #ffffff;
-        border-radius: 30px;
+        border-radius: 27px;
         &__box1 {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 32px;
-            padding-top: 16px;
+            flex-direction: column;            
+            gap: 16px;
+            padding-top: 29px;
             padding-left: 48px;
             padding-right: 48px;
         }
@@ -198,6 +198,7 @@
             padding-bottom: 16px;
             padding-left: 104px;
             padding-right: 104px;
+            margin-top: 16px;
         }
 
         &__button:hover {
@@ -208,23 +209,24 @@
     .imageMG {
         height: 285px;
         width: 343px;
+        border-radius: 30px;
         }
     }
 
     .block3 {
         width: 343px;
-        height: 577px;
+        height: 568px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         background-color: #ffffff;
-        border-radius: 30px;
+        border-radius: 27px;
         &__box3 {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 16px;
-            padding-top: 16px;
+            padding-top: 29px;
             padding-left: 48px;
             padding-right: 48px;
         }
@@ -252,6 +254,7 @@
             padding-bottom: 16px;
             padding-left: 104px;
             padding-right: 104px;
+            margin-top: 16px;
         }
 
         &__button:hover {
@@ -262,12 +265,13 @@
     .imageMG {
         height: 285px;
         width: 343px;
+        border-radius: 30px;
         }
 }
 
     .block5 {
         width: 343px;
-        height: 577px;
+        height: 568px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -278,7 +282,7 @@
             flex-direction: column;
             align-items: center;
             gap: 16px;
-            padding-top: 16px;
+            padding-top: 29px;
             padding-left: 48px;
             padding-right: 48px;
         }
@@ -306,6 +310,7 @@
             padding-bottom: 16px;
             padding-left: 104px;
             padding-right: 104px;
+            margin-top: 16px;
         }
 
         &__button:hover {
@@ -316,21 +321,23 @@
     .imageMG {
         height: 285px;
         width: 343px;
+        border-radius: 30px;
         }
     
     }
     .block2 {
         width: 343px;
-        height: 577px;
+        height: 568px;
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        justify-content: flex-start;        
         background-color: #ffffff;
-        border-radius: 30px;        
+        border-radius: 27px;        
         &__box2 {
             display: flex;
             flex-direction: column;            
             gap: 16px;
-            padding-top: 8px;
+            padding-top: 29px;
             padding-left: 48px;
             padding-right: 48px;
             padding-bottom: 24px;
@@ -359,6 +366,7 @@
             padding-bottom: 16px;
             padding-left: 104px;
             padding-right: 104px;
+            margin-top: 16px;
         }
 
         &__button:hover {
@@ -369,21 +377,23 @@
     .imageMG {
         height: 285px;
         width: 343px;
+        border-radius: 30px;
         }
     }
 
     .block4 {
         width: 343px;
-        height: 577px;
+        height: 607px;
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        justify-content: flex-start;        
         background-color: #ffffff;
-        border-radius: 30px;
+        border-radius: 27px;
         &__box4 {
             display: flex;
             flex-direction: column;            
-            gap: 8px;
-            padding-top: 4px;
+            gap: 16px;
+            padding-top: 29px;
             padding-left: 48px;
             padding-right: 48px;
             padding-bottom: 16px;
@@ -412,6 +422,7 @@
             padding-bottom: 16px;
             padding-left: 104px;
             padding-right: 104px;
+            margin-top: 16px;
         }
 
         &__button:hover {
@@ -422,23 +433,25 @@
     .imageMG {
         height: 285px;
         width: 343px;
+        border-radius: 30px;
         }
     }
 
     .block6 {
         width: 343px;
-        height: 577px;
+        height: 627px;
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        justify-content: flex-start;        
         background-color: #ffffff;
         border-radius: 30px;
         &__box6 {
             display: flex;
-            flex-direction: column;            
-            gap: 4px;           
+            flex-direction: column;                        
+            gap: 16px;
+            padding-top: 29px;           
             padding-left: 48px;
-            padding-right: 48px;
-            padding-bottom: 16px;
+            padding-right: 48px;            
         }
 
         &__title {
@@ -464,6 +477,7 @@
             padding-bottom: 16px;
             padding-left: 104px;
             padding-right: 104px;
+            margin-top: 16px;
         }
 
         &__button:hover {
@@ -474,10 +488,18 @@
     .imageMG {
         height: 285px;
         width: 343px;
+        border-radius: 30px;
         }
     }
 
     .footer {
-    height: 200px;
+        height: 100px;
+        &__text {
+            padding-top: 40px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 17px;
+            text-align: center;
+        }
     }
 }
