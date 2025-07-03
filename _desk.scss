@@ -22,16 +22,23 @@ a {
     &__content {
         padding-top: 196px;
         padding-right: 432px;
+        padding-bottom: 246px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        gap: 48px;
+        gap: 64px;        
+    }
+    &__textblock {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 24px;
     }
 
     &__title {
         font-weight: 700;
         font-size: 64px;
-        line-height: 78px;
+        line-height: 78px;        
     }
 
     &__text {
@@ -45,7 +52,7 @@ a {
         font-weight: 600;
     }
 
-    &__button {
+    &__link {        
         padding-top: 16px;
         padding-bottom: 16px;
         padding-left: 65px;
@@ -58,7 +65,7 @@ a {
         background-color: #202027;
     }
 
-    &__button:hover {
+    &__link:hover {
         color: #202027;
         background-color: #ffffff;
     }
@@ -91,11 +98,15 @@ a {
 .imgbigstar1 {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0;       
 }
 
 .imgstar1M {
-    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;    
+    display: none;    
 }
 
 .imgstar2M {
@@ -153,9 +164,10 @@ a {
 .cards {
     position: relative;
     padding-top: 72px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 32px;    
 }
 
 .boxduo {
@@ -192,7 +204,7 @@ a {
         color: #202027;
     }
 
-    &__button {
+    &__number {
         padding-top: 8px;
         padding-bottom: 10px;
         padding-right: 16px;
@@ -201,6 +213,7 @@ a {
         font-size: 16px;
         line-height: 18px;
         border-radius: 52px;
+        color: #202027;
         background-color: #f7f7f7;
         border: none;
     }
@@ -241,6 +254,7 @@ a {
 }
 
 .title {
+    padding-top: 46px;    
     padding-bottom: 72px;
     font-weight: 700;
     font-size: 64px;
@@ -249,6 +263,7 @@ a {
 }
 
 .content {
+    padding-bottom: 211px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -535,25 +550,25 @@ a {
 .imgstar7 {
     position: absolute;
     top: 35px;
-    left: 1280px;
+    left: 1260px;
 }
 
 .imgstar6 {
     position: absolute;
-    top: 65px;
-    left: 1330px;
+    top: 75px;
+    left: 1320px;
 }
 
 .imgstar10 {
     position: absolute;
-    top: 3370px;
-    left: 1260px;
+    top: 3410px;
+    left: 1240px;
 }
 
 .imgstar8 {
     position: absolute;
-    top: 2100;
-    left: 1330px;
+    top: 3350px;
+    left: 1320px;
 }
 
 .footer {
