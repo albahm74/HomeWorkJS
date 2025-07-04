@@ -29,4 +29,9 @@ function game1() {
     }
   }
 }
-game1();
+document.addEventListener("DOMContentLoaded", function() {
+    const startBtn = document.getElementById("startGame1");
+    startBtn.addEventListener("click", function() {
+        game1();
+    });
+});
