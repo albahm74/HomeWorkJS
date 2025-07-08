@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Скрыть/показать заголовок</title>
+</head>
+<body>
+  <h1>Это заголовок</h1>
+  <button>Скрыть</button>
+
+  <script>
+    const heading = document.querySelector('h1');
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', () => {
+      if (heading.style.display === 'none') {
+        heading.style.display = '';
+        button.textContent = 'Скрыть';
+      } else {
+        heading.style.display = 'none';
+        button.textContent = 'Показать';
+      }
+    });
+  </script>
+</body>
+</html>
