@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Изменение цвета текста</title>
+</head>
+<body>
+  <p>Это абзац с текстом.</p>
+  <button>Изменить цвет</button>
+
+  <script>
+    const paragraph = document.querySelector('p');
+    const button = document.querySelector('button');
+
+    button.addEventListener('click', () => {
+      paragraph.style.color = 'blue';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Изменение текста по классу</title>
+</head>
+<body>
+  <p class="description">Первый текст</p>
+  <div class="description">Второй текст</div>
+  <span class="description">Третий текст</span>
+
+  <script>
+    const descriptions = document.querySelectorAll('.description');
+
+    descriptions.forEach(element => {
+      element.textContent = 'Измененный текст';
+    });
+  </script>
+</body>
+</html>
